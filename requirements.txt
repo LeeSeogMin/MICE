@@ -1,0 +1,22 @@
+# Python Requirements for Digital Transformation Causal Inference Pipeline
+# Install with: pip install -r requirements.txt
+# Compatible with Python 3.9-3.13
+
+# Core scientific computing
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.11.0
+
+# Machine learning
+scikit-learn>=1.3.0
+
+# Statistics and causal inference
+statsmodels>=0.14.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Utilities
+tqdm>=4.65.0
+joblib>=1.3.0

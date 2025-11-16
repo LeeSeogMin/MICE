@@ -1,0 +1,30 @@
+TMLE (Targeted Maximum Likelihood Estimation) Results
+======================================================================
+
+Method: Doubly Robust Estimator with Targeting
+  - Initial outcome models: μ₁(X), μ₀(X)
+  - Propensity score: g(X) = P(T=1|X)
+  - Targeting: Clever covariate + fluctuation
+  - Estimator: TMLE combines both with bias reduction
+
+Results:
+  ATE: -0.066566
+  SE: 0.006233
+  95% CI: [-0.078784, -0.054349]
+  t-statistic: -10.6792
+  p-value: 0.000000
+
+  → Statistically significant (p < 0.05)
+
+Interpretation:
+  Digital adoption → TFP change: -6.44%
+
+Multiple Imputation:
+  M = 10 imputations
+  Combined using Rubin's rules
+  Degrees of freedom: 1515293411530006.75
+
+Comparison with AIPW:
+  TMLE is theoretically more efficient than AIPW
+  Both are doubly robust estimators
+  TMLE uses targeting to reduce bias further

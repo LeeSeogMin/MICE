@@ -1,0 +1,23 @@
+AIPW (Augmented Inverse Probability Weighting) Results
+============================================================
+
+Method: Doubly Robust Estimator
+  - Propensity score: e(X) = P(T=1|X)
+  - Outcome models: μ₁(X), μ₀(X)
+  - Estimator: AIPW combines both
+
+Results:
+  ATE: 0.039071
+  SE: 0.009114
+  95% CI: [0.021207, 0.056935]
+  t-statistic: 4.2868
+  p-value: 0.000018
+
+  → Statistically significant (p < 0.05)
+
+Interpretation:
+  Digital adoption → TFP change: +3.98%
+
+Multiple Imputation:
+  M = 10 imputations
+  Combined using Rubin's rules
