@@ -4,7 +4,7 @@
 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Status](https://img.shields.io/badge/status-completed-green)](https://github.com/user/repo)
+[![Status](https://img.shields.io/badge/status-completed-green)](https://github.com/LeeSeogMin/MICE)
 
 ---
 
@@ -58,7 +58,7 @@ MICE/
 ### 1. 환경 설정
 
 ```bash
-git clone https://github.com/[username]/MICE.git
+git clone https://github.com/LeeSeogMin/MICE.git
 cd MICE
 
 python -m venv venv
@@ -167,7 +167,9 @@ type analysis\results\industry_heterogeneity.csv
 - **의존성**: numpy, pandas, scikit-learn, scipy, statsmodels
 
 ---
+
 ## 데이터
+
 **접근**: [MDIS Statistics Korea](https://mdis.kostat.go.kr)
 
 ---
